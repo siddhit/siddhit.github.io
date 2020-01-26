@@ -230,21 +230,8 @@ li{
 }
 
 /* Hobbies/Poetry */
-.dhara-poetry{
-  background-image: url('images/dhara.jpg');
-  height: 100%;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-pre{
-  font-size: 1.5rem;
-  line-height: 2;
-  font-family: inherit;
 
 
-}
 
 .poetry-text{
   color: yellow;
