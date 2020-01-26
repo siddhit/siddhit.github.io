@@ -62,7 +62,7 @@ li{
 }
 
 .social{
-  padding: auto 30px;
+  padding: 30px;
   text-decoration: none;
   font-weight: bold;
   color: inherit;
@@ -72,7 +72,7 @@ li{
   /*ackground-color: #ecfcff;*/
   background: linear-gradient(#ffffff,#ecfcff);
   /*color pallette 154210 on colorhunt.co*/
-  margin: 0px;
+  margin: 0;
   position: relative;
 
 }
@@ -231,7 +231,7 @@ li{
 
 /* Hobbies/Poetry */
 .dhara-poetry{
-  background-image: url("images/dhara.jpg");
+  background-image: url('images/dhara.jpg');
   height: 100%;
   background-position:center;
   background-repeat: no-repeat;
