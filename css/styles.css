@@ -15,6 +15,7 @@ h1 {
   font-size: 5.625vw;
   color: #66BFBF;
   max-width: 100%;
+  height: auto;
   /*line height is specified without units*/
 
 }
