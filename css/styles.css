@@ -1,25 +1,31 @@
 
+html{
+  font-size: 25px;
+}
 body {
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 
 h1{
-  font-family: 'Noto Sans', serif;
+  font-family: 'Noto Serif', serif;
   /* font-family: 'Roboto', sans-serif; */
-  font-size: 3rem;
+  font-size: 3em;
 }
+
+
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-size: 2.5em;
+}
+
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  size: 2em;
+}
+
 
 a {
   text-decoration: none;
   color: initial;
-}
-
-h2 {
-  font-family: 'Noto Sans', serif;
-  font-size: 2.5rem;
-}
-
-p {
-  font-family: 'Noto Sans', sans-serif;
-  size: 2rem;
 }
