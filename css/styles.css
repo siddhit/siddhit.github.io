@@ -29,3 +29,16 @@ a {
   text-decoration: none;
   color: initial;
 }
+
+
+.item:hover a h2.new-label span{
+  display: none;
+}
+.item:hover a h2.new-label:after{
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-decoration-color: #28a745;
+  content: 'As Manufacturing Lead, US at Pashi, I build tech and teams to make manufacturing better.';
+  font-family:'Noto Sans', sans-serif;
+  transition-duration: 10s;
+}
