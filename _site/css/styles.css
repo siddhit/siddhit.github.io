@@ -26,7 +26,8 @@ p {
 
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
   color: initial;
 }
 
