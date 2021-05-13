@@ -31,14 +31,40 @@ a {
 }
 
 
-.item:hover a h2.new-label span{
+.build:hover a h2.pashi span{
   display: none;
 }
-.item:hover a h2.new-label:after{
+.build:hover a h2.pashi:after{
   font-size: 1.5rem;
   text-decoration: underline;
   text-decoration-color: #28a745;
-  content: 'As Manufacturing Lead, US at Pashi, I build tech and teams to make manufacturing better.';
+  content: 'I build tech and teams to make manufacturing better at Pashi as its US Manufacturing Lead.';
+  font-family:'Noto Sans', sans-serif;
+  transition-duration: 10s;
+}
+
+
+.create:hover a h2.substack span{
+  display: none;
+}
+.create:hover a h2.substack:after{
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-decoration-color: #007788;
+  content: 'I write fiction stories and sculpt the main protagonist in ink or clay at Sculpt-a-Story on Substack.';
+  font-family:'Noto Sans', sans-serif;
+  transition-duration: 10s;
+}
+
+
+.random:hover a h2.soon span{
+  display: none;
+}
+.random:hover a h2.soon:after{
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-decoration-color: #5271ff;
+  content: 'Coming soon!';
   font-family:'Noto Sans', sans-serif;
   transition-duration: 10s;
 }
