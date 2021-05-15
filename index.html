@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@300&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link href="/assets/css/all.css" rel="stylesheet">
@@ -86,12 +88,23 @@
   <div class='social-show' style="display: none;" id="social-show">
     <p>Get in touch with on
       <a class='twitter' target="_blank" href="https://twitter.com/siddhitsanghavi">Twitter</a>, <a class='linkedin'
-        target="_blank" href="https://linkedin.com/in/siddhitsanghavi">LinkedIn</a> <a class='github' target="_blank"
-        href="https://github.com/siddhit">GitHub</a> or <a class='instagram' target="_blank"
-        href="https://instagram.com/siddhit">Instagram</a>.
+        target="_blank" href="https://linkedin.com/in/siddhitsanghavi">LinkedIn</a> or <a class='github' target="_blank"
+        href="https://github.com/siddhit">GitHub</a>.
     </p>
   </div>
 
+  <footer>
+    <span class='thanks' onclick="toggleThanks()" id='thanks'>
+      <i class="far fa-heart"></i>
+    </span>
+    <p class='thanks-text'><span id='thanks-show' style="display: none;" class='thanks-show'>
+        Thanks to the websites of <a target="_blank" href="https://pal.codes">pal.codes</a> and <a target="_blank"
+          href="https://soh.am">soh.am </a> from which I copied
+        with pride, <a href="https://colorhunt.co">ColorHunt</a> for this palette, <a
+          href="https://fontawesome.com">FontAwesome </a> for the icons, <a href="https://pages.github.com/"></a> Github
+        for the hosting, and all you <a href="https://stackoverflow.com">StackOverflow</a> people!
+      </span></p>
+  </footer>
 
 </body>
 
@@ -145,6 +158,15 @@
     }
   }
 
+
+  function toggleThanks() {
+    var t = document.getElementById("thanks-show");
+    if (t.style.display === 'none') {
+      t.style.display = 'block';
+    } else {
+      t.style.display = 'none';
+    }
+  }
   //When I understand this better
 // var btn = document.querySelector('h2');
 // var hint = document.getElementById('hint');
