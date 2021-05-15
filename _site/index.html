@@ -4,53 +4,168 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siddhit Sanghavi</title>
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- <script>
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $("p").hide();
-  });
-  $("#show").click(function(){
-    $("p").show();
-  });
-});
-</script> -->
-  
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link href="/assets/css/all.css" rel="stylesheet">
+  <!--load all styles -->
+  <link rel="icon" href="favicon.ico">
+  <title>Siddhit Sanghavi</title>
+
+
 </head>
 
-<body>
+<body class="dark-theme || light-theme">
+  <header>
+    <button class="btn-toggle">
+      <span style='font-size: 2em;'>
+        <i class="fas fa-adjust"></i>
+      </span>
+    </button>
+    <h1>Hi, I'm Siddhit.</h1>
+  </header>
 
-    <div >
-      <h1><a href="/">Hi, I'm Siddhit.</a></h1>
-    </div>
+
+  <!--Build-->
+  <div class="build">
+    <h2 id='btn' onclick="toggleBuild()">Build</h2>
+  </div>
+
+  <div class="build-show" id="build-show" style="display: none;">
+    <p>I build tech and teams to make manufacturing better at
+      <a class='pashi' target="_blank" href="https://pashi.com">Pashi</a>
+      as its US Manufacturing Lead.
+    </p>
+    <p>
+      I also help my wife build her home-decor business <a class='sd' target="_blank"
+        href="https://instagram.com/studio_dharaesque">studio dharaesque</a> by lifting heavy things.
+    </p>
+  </div>
 
 
-    <div class="build">
-      <a target="_blank" href="https://pashi.com">
-      <h2 class="pashi"><span class="align">Build</span> </h2>
-      </a>
-    </div>
+  <!--Create-->
+  <div class="create">
 
-    <div class="create">
-      <a target="_blank" href="https://sculptastory.substack.com">
-      <h2 class="substack"><span class="align">Create</span> </h2>
-      </a>
-    </div>
+    <h2 id='btn' onclick="toggleCreate()">Create</h2>
 
-    <div class="random">
-      <a target="_blank" href="/">
-      <h2 class="soon"><span class="align">Random</span> </h2>
-      </a>
-    </div>
+  </div>
 
-    
- 
+  <div class='create-show' id="create-show" style="display: none;">
+    <p>I write fiction stories and sculpt the main protagonist in ink or clay at
+      <a class='substack' id='btn' target="_blank" href="https://sculptastory.substack.com">Sculpt-a-Story on
+        Substack</a>.
+    </p>
+
+  </div>
+
+
+  <!--Random-->
+  <div class="random"></div>
+  <h2 id='btn' onclick="toggleRandom()">Random</h2>
+  </div>
+
+  <div class="random-show" style="display: none;" id="random-show">
+    <p>
+      I also like to read, garden, and sometimes code. More on that soon!
+    </p>
+  </div>
+
+
+  <!--Social-->
+  <div class="social">
+    <h2 id='btn' onclick="toggleContact()">Contact</h2>
+
+  </div>
+
+  <div class='social-show' style="display: none;" id="social-show">
+    <p>Get in touch with on
+      <a class='twitter' target="_blank" href="https://twitter.com/siddhitsanghavi">Twitter</a>, <a class='linkedin'
+        target="_blank" href="https://linkedin.com/in/siddhitsanghavi">LinkedIn</a> <a class='github' target="_blank"
+        href="https://github.com/siddhit">GitHub</a> or <a class='instagram' target="_blank"
+        href="https://instagram.com/siddhit">Instagram</a>.
+    </p>
+  </div>
+
+
 </body>
 
 </html>
+
+
+<script>
+  //Light/dark mode toggle
+  // Select the button
+  const btn = document.querySelector(".btn-toggle");
+
+  btn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-theme");
+  });
+
+
+  //I shouldn't be repeating a function so many times but it doesn't work with common ids and a single function.
+  function toggleBuild() {
+    var b = document.getElementById("build-show");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+    } else {
+      b.style.display = 'none';
+    }
+  }
+
+  function toggleCreate() {
+    var c = document.getElementById("create-show");
+    if (c.style.display === 'none') {
+      c.style.display = 'block';
+    } else {
+      c.style.display = 'none';
+    }
+  }
+
+  function toggleRandom() {
+    var r = document.getElementById("random-show");
+    if (r.style.display === 'none') {
+      r.style.display = 'block';
+    } else {
+      r.style.display = 'none';
+    }
+  }
+
+  function toggleContact() {
+    var s = document.getElementById("social-show");
+    if (s.style.display === 'none') {
+      s.style.display = 'block';
+    } else {
+      s.style.display = 'none';
+    }
+  }
+
+  //When I understand this better
+// var btn = document.querySelector('h2');
+// var hint = document.getElementById('hint');
+// var height = hint.clientHeight;
+// var width = hint.clientWidth;
+// console.log(width + 'x' + height);
+// // initialize them (within hint.style)
+// hint.style.height = height + 'px';
+// hint.style.width = width + 'px';
+
+// btn.addEventListener('click', function(){
+//   if(hint.style.visibility === 'hidden'){
+//     hint.style.visibility = 'visible';
+//     //hint.style.opacity = '1';
+//     hint.style.height = height + 'px';
+//     hint.style.width = width + 'px';
+//     hint.style.padding = '.5em';
+//   }
+//   else{
+//     hint.style.visibility = 'hidden';
+//     //hint.style.opacity = '0';
+//     hint.style.height = '0';
+//     hint.style.width = '0';
+//     hint.style.padding = '0';
+//   }
+
+
+// });
+</script>
