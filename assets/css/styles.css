@@ -45,6 +45,11 @@ body.dark-theme h1 {
 p {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1em;
+  color: #393e46;
+}
+
+a {
+  color: #393e46;
 }
 
 a.me {
