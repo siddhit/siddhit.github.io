@@ -2,7 +2,8 @@ html {
   font-size: 25px;
 }
 body {
-  margin-left: 0.5em;
+  margin-left: 10vw;
+  margin-right: 10vw;
   background-color: #eeeeee;
 }
 
