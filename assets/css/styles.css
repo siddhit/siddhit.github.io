@@ -1,10 +1,13 @@
 @media screen and (min-width: 50em) {
   html {
-    font-size: calc(22px + (24 - 22)*(100vw - 400px)/400);
+    font-size: calc(18px + (20 - 18)*(100vw - 400px)/400);
   }
 }
 body {
-  padding: 1.5rem;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   background-color: #eeeeee;
 }
 
