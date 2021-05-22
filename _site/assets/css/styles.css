@@ -1,23 +1,24 @@
-html {
-  font-size: 25px;
+@media screen and (min-width: 50em) {
+  html {
+    font-size: calc(22px + (24 - 22)*(100vw - 400px)/400);
+  }
 }
 body {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  padding: 1.5rem;
   background-color: #eeeeee;
 }
 
 h1 {
   font-family: "Noto Serif JP", serif;
-  font-size: 3em;
+  font-size: 4em;
   text-decoration: none;
-  font-weight: bold;
+  font-weight:bolder;
   color: #393e46;
 }
 
 h2 {
   font-family: "Noto Serif JP", serif;
-  font-size: 2.5em;
+  font-size: 3em;
   text-decoration: underline;
   text-decoration-color: #00adb5;
   color: #393e46;
@@ -27,25 +28,27 @@ body.dark-theme {
   background-color: #393e46;
 }
 
+body.dark-theme h1 {
+  color: #eeeeee;
+  font-family: "Noto Serif JP", serif;
+  font-size: 4em;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
 body.dark-theme h2 {
   color: #eeeeee;
   font-family: "Noto Serif JP", serif;
-  font-size: 2.5em;
+  font-size: 3em;
   text-decoration: underline;
   text-decoration-color: #00adb5;
 }
 
-body.dark-theme h1 {
-  color: #eeeeee;
-  font-family: "Noto Serif JP", serif;
-  font-size: 3em;
-  text-decoration: none;
-  font-weight: bold;
-}
+
 
 p {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #393e46;
 }
 
@@ -106,6 +109,7 @@ body.dark-theme button.btn-toggle {
 
 body.dark-theme p {
   color: #eeeeee;
+  font-size: 1.5em;
 }
 
 body.dark-theme a {
@@ -154,5 +158,10 @@ a.github {
 
 body.dark-theme a.github {
   text-decoration-color: #f5f5f5;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme a.substack {
+  text-decoration-color: #99eebb;
   text-decoration-thickness: 0.15em;
 }
