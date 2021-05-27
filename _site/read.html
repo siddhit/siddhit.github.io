@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read</title>
+    <title>Reading</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@300&display=swap"
         rel="stylesheet">
 
@@ -14,40 +14,79 @@
     <link rel="icon" href="favicon.ico">
 </head>
 
-<body class="dark-theme || light-theme">
-    <button class="btn-toggle">
-    <span style='font-size: 2em;'>
-        <i class="fas fa-adjust"></i>
-    </span>
-</button>
+<body class="light-theme">
+    <div class="header">
+        <div class="back">
+            <a href="/index.html"><i class="fas fa-arrow-left"></i></a>
 
-<script>
-    //Light/dark mode toggle
-    // Select the button
-    const btn = document.querySelector(".btn-toggle");
+        </div>
+        <div class="theme_selector">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
+    <h1>Reading</h1>
 
-    btn.addEventListener("click", function () {
-        document.body.classList.toggle("dark-theme");
-    });
-</script>
-
-<h1>Read</h1>
-
-<p>I'm listing fiction first since it got me into reading. I've been told non-fiction is where the real wisdom is but
-    the way I see
-    it every fiction book is just a colorful visage wrapped around a core of first-hand learnings of the author. But
-    I'll leave it at that. For non-fiction, scroll below. All links are from Amazon (and I've chosen the Kindle
-    versions) and I don't get a cut.</p>
+    <p>I'm listing fiction first since it got me into reading. I've been told non-fiction is where the real wisdom is.
+    The way I see it every fiction book is just a colorful visage wrapped around a core of first-hand learnings of the
+    author. Plus, read what you love to
+    But I'll leave it at that. For non-fiction, scroll below. All links are from Amazon (and I've chosen the Kindle
+    versions) and I don't get a cut.
+</p>
 
 <h2>Fiction</h2>
 
 
 <p><strong> <a target="_blank"
             href="https://www.amazon.com/Ultimate-Hitchhikers-Guide-Galaxy-Outrageous-ebook/dp/B0043M4ZH0/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">The
-            Ultimate Hitchhiker's Guide to the Galaxy</a>, by Douglas Adams</strong> - for the best combination
+            Ultimate Hitchhiker's Guide to the Galaxy</a></strong>, by <a
+        href="https://en.wikipedia.org/wiki/Douglas_Adams">Douglas Adams</a>
+</p>
+<p>For the best combination
     of wisdom with nonsense and satire with silliness I have seen in a science fiction book.</p>
 
-<p><strong> <a target="_blank" href=""></a>
+<br>
+<p><strong> <a target="_blank"
+            href="https://www.amazon.com/Kill-Mockingbird-Harperperennial-Modern-Classics-ebook/dp/B00K0OI42W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">To
+            Kill a Mockingbirgd</a></strong>, by <a href="https://en.wikipedia.org/wiki/Harper_Lee">Harper Lee</a>
+</p>
+<p>For a story of empathy in which a terrible injustice is unfolds before the gentle eyes of a child and her father.</p>
+
+<br>
+<p><strong> <a target="_blank"
+            href="https://www.amazon.com/Fountainhead-Ayn-Rand-ebook/dp/B002OSXDAU/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">The
+            Fountainhead</a></strong>, by <a href="https://en.wikipedia.org/wiki/Harper_Lee">Ayn Rand</a>
+</p>
+<p>For its somewhat controversial philosophy of objectivism but still a wonderful story about the career trajectories of
+    two
+    frenemies and the evolution of their competence.</p>
+
 </body>
+
+<script>
+    //Light/dark mode toggle
+    // Select the button
+    const checkbox = document.getElementById('checkbox');
+
+    checkbox.addEventListener('change', () => {
+        //change theme of body\
+        document.body.classList.toggle("dark-theme");
+
+
+    });
+
+    function toggleThanks() {
+        var t = document.getElementById("thanks-show");
+        if (t.style.display === 'none') {
+            t.style.display = 'block';
+        } else {
+            t.style.display = 'none';
+        }
+    }
+</script>
 
 </html>

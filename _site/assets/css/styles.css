@@ -3,17 +3,126 @@
     font-size: calc(18px + (20 - 18)*(100vw - 400px)/400);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.theme_selector {
+  position: absolute;
+  right: 1em;
+}
+
+.back {
+  position: absolute;
+  
+}
+
+body.dark-theme .back {
+  color: #eeeeee;
+  float: left;
+}
+
+body.light-theme .back {
+  color: #393e46;
+  float: left;
+}
+
 body {
-  padding-left: 8vw;
-  padding-right: 8vw;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 3vw;
   background-color: #eeeeee;
+  transition: background 0.3s ease-out;
+ 
+}
+
+.header {
+  width: 100%;
+  height: 3vh;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+
+body.light-theme .label {
+  width: 2.75em;
+  height: 1.5em;
+  background-color:none;
+  display: flex;
+  border-radius: 1.5em;
+  background-color: #393e46;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+body.dark-theme .label {
+  width: 2.75em;
+  height: 1.5em;
+  background-color:none;
+  display: flex;
+ border-radius: 1.5em;
+  background-color: #eeeeee;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.fa-moon {
+  color: #393e46;
+}
+
+.fa-sun {
+  color: #eeeeee;
+  
+}
+
+body.light-theme .ball {
+  height: 1.15em;
+  width: 1.15em;
+  position: absolute;
+  background-color: #eeeeee;
+  top: 0.20em;
+  left: 0.20em;
+  border-radius: 50%;
+  transition: transform 0.3s linear;
+}
+
+body.dark-theme .ball {
+  height: 1.15em;
+  width: 1.15em;
+  position: absolute;
+  background-color: #393e46;
+  top: 0.20em;
+  left: 0.20em;
+  border-radius: 50%;
+  transition: transform 0.3s linear;
+}
+
+/* the plus sign is for adjacent tags */
+.checkbox:checked + .label .ball {
+  transform: translateX(1.3em);
+  color: #393e46;
 }
 
 h1 {
   font-family: "Noto Serif JP", serif;
-  font-size: 4em;
+  font-size: 3em;
   text-decoration: none;
   font-weight:bolder;
   color: #393e46;
@@ -21,7 +130,7 @@ h1 {
 
 h2 {
   font-family: "Noto Serif JP", serif;
-  font-size: 3em;
+  font-size: 2em;
   text-decoration: underline;
   text-decoration-color: #00adb5;
   color: #393e46;
@@ -34,7 +143,7 @@ body.dark-theme {
 body.dark-theme h1 {
   color: #eeeeee;
   font-family: "Noto Serif JP", serif;
-  font-size: 4em;
+  font-size: 3em;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -42,16 +151,15 @@ body.dark-theme h1 {
 body.dark-theme h2 {
   color: #eeeeee;
   font-family: "Noto Serif JP", serif;
-  font-size: 3em;
+  font-size: 2em;
   text-decoration: underline;
   text-decoration-color: #00adb5;
 }
 
 
-
 p {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #393e46;
 }
 
@@ -86,33 +194,18 @@ span.thanks-show {
   float: right;
   margin-bottom: 1.5em;
   margin-right: 0.5em;
+  font-size: 0.5em;
 }
 
-p.thanks-text {
-  font-size: 0.75em;
+.build, .create, .random, .social, .label{
+  cursor: pointer;
 }
 
-button.btn-toggle {
-  float: right;
-  margin-top: 1.5em;
-  margin-right: 0.5em;
-}
 
-button.btn-toggle {
-  color: #393e46;
-  border: none;
-  background-color: #eeeeee;
-}
-
-body.dark-theme button.btn-toggle {
-  color: #eeeeee;
-  border: none;
-  background-color: #393e46;
-}
 
 body.dark-theme p {
   color: #eeeeee;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 body.dark-theme a {

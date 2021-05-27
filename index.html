@@ -1,128 +1,82 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+---
+layout: default
+title: Siddhit Sanghavi
+---
+<h1>Hi, I'm Siddhit.</h1>
+<!--Build-->
+<div class="build">
+  <h2 id='btn' onclick="toggleBuild()">Build</h2>
+</div>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+<div class="build-show" id="build-show" style="display: block;">
+  <p>As US Manufacturing Lead, I help build tech and teams to make manufacturing better at
+    <a class='pashi' target="_blank" href="https://pashi.com">Pashi</a>, the operating system for manufacturing. To
+    understand our customer community better, I host its podcast, <a class='pashi' target="_blank"
+      href="https://pashi.com/podcast/">the
+      Means of Production</a>, in which I talk to manufacturing experts on
+    challenges they face. If you're from the manufacturing industry and wish to guest on the Means of Production,
+    email me at
+    siddhit[at]pashi[dot]com.
+  </p>
 
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@300&display=swap"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link href="/assets/css/all.css" rel="stylesheet">
-  <!--load all styles -->
-  <link rel="icon" href="favicon.ico">
-  <title>Siddhit Sanghavi</title>
-
-
-</head>
-
-<body class="dark-theme || light-theme">
-  <header>
-    <button class="btn-toggle">
-      <span style='font-size: 2em;'>
-        <i class="fas fa-adjust"></i>
-      </span>
-    </button>
-    <h1>Hi, I'm Siddhit.</h1>
-  </header>
+  <p>
+    I also help my wife build her home-decor & design business <a class='sd' target="_blank"
+      href="https://instagram.com/studio_dharaesque">studio dharaesque</a> by lifting heavy things and taking lots of
+    photos.
+  </p>
+</div>
 
 
-  <!--Build-->
-  <div class="build">
-    <h2 id='btn' onclick="toggleBuild()">Build</h2>
-  </div>
+<!--Create-->
+<div class="create">
 
-  <div class="build-show" id="build-show" style="display: block;">
-    <p>As US Manufacturing Lead, I help build tech and teams to make manufacturing better at
-      <a class='pashi' target="_blank" href="https://pashi.com">Pashi</a>, the operating system for manufacturing. To
-      understand our customer community better, I host its podcast, <a class='pashi' target="_blank"
-        href="https://pashi.com/podcast/">the
-        Means of Production</a>, in which I talk to manufacturing experts on
-      challenges they face. If you're from the manufacturing industry and wish to guest on the Means of Production,
-      email me at
-      siddhit[at]pashi[dot]com.
-    </p>
+  <h2 id='btn' onclick="toggleCreate()">Create</h2>
 
-    <p>
-      I also help my wife build her home-decor & design business <a class='sd' target="_blank"
-        href="https://instagram.com/studio_dharaesque">studio dharaesque</a> by lifting heavy things and taking lots of
-      photos.
-    </p>
-  </div>
+</div>
+
+<div class='create-show' id="create-show" style="display: block;">
+  <p>I write fiction stories and sculpt the main protagonist in ink or clay at
+    <a class='substack' id='btn' target="_blank" href="https://sculptastory.substack.com">Sculpt-a-Story on
+      Substack</a>.
+  </p>
+
+</div>
 
 
-  <!--Create-->
-  <div class="create">
+<!--Random-->
+<div class="random"></div>
+<h2 id='btn' onclick="toggleRandom()">Other stuff</h2>
+</div>
 
-    <h2 id='btn' onclick="toggleCreate()">Create</h2>
-
-  </div>
-
-  <div class='create-show' id="create-show" style="display: block;">
-    <p>I write fiction stories and sculpt the main protagonist in ink or clay at
-      <a class='substack' id='btn' target="_blank" href="https://sculptastory.substack.com">Sculpt-a-Story on
-        Substack</a>.
-    </p>
-
-  </div>
+<div class="random-show" style="display: block;" id="random-show">
+  <p>
+    I also like to <a href="/read.html">read</a>, garden, code and dive headlong into rabbit-holes about information
+    nobody needs. More on that
+    soon!
+  </p>
+</div>
 
 
-  <!--Random-->
-  <div class="random"></div>
-  <h2 id='btn' onclick="toggleRandom()">Other stuff</h2>
-  </div>
+<!--Social-->
+<div class="social">
+  <h2 id='btn' onclick="toggleContact()">Contact</h2>
 
-  <div class="random-show" style="display: block;" id="random-show">
-    <p>
-      I also like to <a href="/read.html">read</a>, garden, code and dive headlong into rabbit-holes about information
-      nobody needs. More on that
-      soon!
-    </p>
-  </div>
+</div>
+
+<div class='social-show' style="display: block;" id="social-show">
+  <p>Get in touch with me on
+    <a class='twitter' target="_blank" href="https://twitter.com/siddhitsanghavi">Twitter</a>, <a class='linkedin'
+      target="_blank" href="https://linkedin.com/in/siddhitsanghavi">LinkedIn</a> or <a class='github' target="_blank"
+      href="https://github.com/siddhit">GitHub</a>.
+  </p>
+</div>
 
 
-  <!--Social-->
-  <div class="social">
-    <h2 id='btn' onclick="toggleContact()">Contact</h2>
 
-  </div>
 
-  <div class='social-show' style="display: block;" id="social-show">
-    <p>Get in touch with me on
-      <a class='twitter' target="_blank" href="https://twitter.com/siddhitsanghavi">Twitter</a>, <a class='linkedin'
-        target="_blank" href="https://linkedin.com/in/siddhitsanghavi">LinkedIn</a> or <a class='github' target="_blank"
-        href="https://github.com/siddhit">GitHub</a>.
-    </p>
-  </div>
-
-  <footer>
-    <span class='thanks' onclick="toggleThanks()" id='thanks'>
-      <i class="far fa-heart"></i>
-    </span>
-    <p class='thanks-text'><span id='thanks-show' style="display: none;" class='thanks-show'>
-        Thanks to the websites of <a target="_blank" href="https://pal.codes">pal.codes</a> and <a target="_blank"
-          href="https://soh.am">soh.am </a> from which I copied
-        with pride, <a href="https://colorhunt.co">ColorHunt</a> for this palette, <a
-          href="https://fontawesome.com">FontAwesome </a> for the icons, <a href="https://pages.github.com/">Github</a>
-        for the hosting, and all you <a href="https://stackoverflow.com">StackOverflow</a> people!
-      </span></p>
-  </footer>
-
-</body>
-
-</html>
 
 
 <script>
-  //Light/dark mode toggle
-  // Select the button
-  const btn = document.querySelector(".btn-toggle");
-
-  btn.addEventListener("click", function () {
-    document.body.classList.toggle("dark-theme");
-  });
 
 
   //I shouldn't be repeating a function so many times but it doesn't work with common ids and a single function.
@@ -130,8 +84,10 @@
     var b = document.getElementById("build-show");
     if (b.style.display === 'none') {
       b.style.display = 'block';
+      b.style.transitionDuration = "1s";
     } else {
       b.style.display = 'none';
+      b.style.transitionDuration = "1s";
     }
   }
 
