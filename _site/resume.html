@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhit H. Sanghavi, PMP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="/assets/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body class="light-theme">
+    <div class="header">
+        <div class="back">
+            <a href="/index.html"><i class="fas fa-arrow-left"></i></a>
+
+        </div>
+        <div class="theme_selector">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
+    <h1>Siddhit H. Sanghavi, PMP</h1>
+
+    <head>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<style>
+    .cd-container {
+        border: solid;
+        border-radius: 10px 10px;
+        border-color: #393e46;
+        color:inherit
+    
+    }
+
+    .cd-timeline-content {
+        margin-left: 1em;
+        margin-bottom: 1.5em;
+        margin-right: 1em;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 0.8em;
+        
+    }
+
+    /* .cd-skills {
+        display: inline;
+        
+    } */
+
+    .cd-skills {
+      list-style-type: none;
+      display: inline;
+      margin: 0.5em;
+    }
+
+
+</style>
+
+<!--Structure-->
+<section id="cd-timeline" class="cd-container">
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture"></div>
+    <div class="cd-timeline-content">
+      <h2>Pashi</h2>
+      <div class="timeline-content-info">
+        <span class="timeline-content-info-title">
+            <strong>Operations Lead, US</strong>
+        </span>
+        <span class="timeline-content-info-date">
+          Jan 2021 - Present
+        </span>
+      </div>
+      <p>
+        <ul>
+            <li><em>Product</em>
+                <ul>
+                    <li>Lead report and metric designs for manufacturing KPI's like capability, performace, OEE and cycle time</li>
+                    <li>Craft production engineering concept documents to eliminate subject matter knowledge gaps for the development team</li>
+                    <li>Stress test software in various scenarios, identify and record bugs</li>
+                    <li>Create data models and general strategy for analytics features</li>
+                    <li>Create mockups for the UI team as voice of the primary customer &#8212 the manufacturing engineers</li>
+                </ul> 
+            </li>
+        </ul>
+      </p>
+      <ul class="content-skills">
+        <li class='cd-skills'> <i class="fa fa-html5 fa-2x"></i></li>
+        <li class='cd-skills'><i class="fab fa-css3-alt fa-2x"></i></li>
+        <li class='cd-skills'><i class="fab fa-js-square fa-2x"></i></li>
+        <li class='cd-skills'><i class="fab fa-docker fa-2x"></i></li>
+        <!-- <li class='cd-skills'>Jekyll</li> -->
+      </ul>
+    </div>
+    <!-- cd-timeline-content -->
+  </div>
+  <!-- cd-timeline-block -->
+</section>
+
+
+</body>
+
+<script>
+    //Light/dark mode toggle
+    // Select the button
+    const checkbox = document.getElementById('checkbox');
+
+    checkbox.addEventListener('change', () => {
+        //change theme of body\
+        document.body.classList.toggle("dark-theme");
+
+
+    });
+
+    function toggleThanks() {
+        var t = document.getElementById("thanks-show");
+        if (t.style.display === 'none') {
+            t.style.display = 'block';
+        } else {
+            t.style.display = 'none';
+        }
+    }
+</script>
+
+</html>
