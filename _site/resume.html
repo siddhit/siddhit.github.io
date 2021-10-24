@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siddhit H. Sanghavi, PMP</title>
+    <title>Siddhit Sanghavi &#8212 Résumé</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@300&display=swap"
         rel="stylesheet">
 
@@ -29,82 +29,219 @@
             </label>
         </div>
     </div>
-    <h1>Siddhit H. Sanghavi, PMP</h1>
+    <h1>Siddhit Sanghavi &#8212 Résumé</h1>
 
-    <head>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
-<style>
-    .cd-container {
-        border: solid;
-        border-radius: 10px 10px;
-        border-color: #393e46;
-        color:inherit
+    <style>
+
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.content {
+  margin-bottom: 2em;
+}
+
+.pashi-co {
+  text-decoration: underline #28a745;
+  text-decoration-thickness: 0.15em;
+  cursor: pointer;
+}
+
+.ford-co {
+  text-decoration: underline #003479;
+  text-decoration-thickness: 0.15em;
+  cursor: pointer;
+}
+
+
+.tasks {
+  color: #393e46;
+  font-size: 0.75em;
+}
+ 
+.role {
+  font-size: 1em;
+  font-weight: bold;
+  color: #393e46;
+  margin-top: -0.5em;
+}
+
+.duration {
+  font-size: 0.6em;
+  color: #393e46;
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+
+ul {
+  padding: 0em;
+}
+
+.skills {
+  list-style-type: none;
+  display: inline;
+  margin: 0.1em;
+  background-color: #393e46;
+  color: #eeeeee;
+  border-radius: 0.1em;
+  font-size: 0.6em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  text-align: center;
+  text-indent: none;
+  font-weight: bold;
+
+  }
+
+.personal_info {
+  padding-bottom: 1em;
+}
+.resume_contacts {
+  margin-right: 1em;
+} 
+
+span.pmp {
+    font-weight: lighter;
+    font-size: smaller;
     
-    }
-
-    .cd-timeline-content {
-        margin-left: 1em;
-        margin-bottom: 1.5em;
-        margin-right: 1em;
-        font-family: "Noto Sans JP", sans-serif;
-        font-size: 0.8em;
-        
-    }
-
-    /* .cd-skills {
-        display: inline;
-        
-    } */
-
-    .cd-skills {
-      list-style-type: none;
-      display: inline;
-      margin: 0.5em;
-    }
-
+  }
 
 </style>
 
-<!--Structure-->
-<section id="cd-timeline" class="cd-container">
-  <div class="cd-timeline-block">
-    <div class="cd-timeline-img cd-picture"></div>
-    <div class="cd-timeline-content">
-      <h2>Pashi</h2>
-      <div class="timeline-content-info">
-        <span class="timeline-content-info-title">
-            <strong>Operations Lead, US</strong>
-        </span>
-        <span class="timeline-content-info-date">
-          Jan 2021 - Present
-        </span>
-      </div>
-      <p>
-        <ul>
-            <li><em>Product</em>
-                <ul>
-                    <li>Lead report and metric designs for manufacturing KPI's like capability, performace, OEE and cycle time</li>
-                    <li>Craft production engineering concept documents to eliminate subject matter knowledge gaps for the development team</li>
-                    <li>Stress test software in various scenarios, identify and record bugs</li>
-                    <li>Create data models and general strategy for analytics features</li>
-                    <li>Create mockups for the UI team as voice of the primary customer &#8212 the manufacturing engineers</li>
-                </ul> 
-            </li>
-        </ul>
-      </p>
-      <ul class="content-skills">
-        <li class='cd-skills'> <i class="fa fa-html5 fa-2x"></i></li>
-        <li class='cd-skills'><i class="fab fa-css3-alt fa-2x"></i></li>
-        <li class='cd-skills'><i class="fab fa-js-square fa-2x"></i></li>
-        <li class='cd-skills'><i class="fab fa-docker fa-2x"></i></li>
-        <!-- <li class='cd-skills'>Jekyll</li> -->
-      </ul>
-    </div>
-    <!-- cd-timeline-content -->
+
+</head>
+<body>
+
+
+<!--PERSONAL INFO-->
+<div class="personal_info">
+  <div >
+    <p>This is my resume as of 10/23/2021. Get in touch to discuss opportunities! (Click on the underlined company/institution to collapse/expand).</p>
+    <a class='linkedin'target="_blank" href="https://linkedin.com/in/siddhitsanghavi" style="margin-right: 0.2em;">LinkedIn</a>
+    <a class='email' href="mailto:siddhits@gmail.com" target="none" style="margin-right: 0.2em;">Email</a>
   </div>
-  <!-- cd-timeline-block -->
-</section>
+</div>
+
+  <!--PASHI-->
+
+ 
+  <div class="content">
+     
+    <div>
+            <h2 id="btn" onclick="togglePashi()" class="pashi-co">Pashi</h2>
+            <p class="role">Operations Lead, US</p>
+            <p class="duration">JAN 2021 - PRESENT</p>
+    </div>
+       
+    <div class="timeline-content-info" id="pashi-show" style="display: block;">
+        
+          <p class="tasks">Led metrics, interface documentation and KPI design of key manufacturing performance areas resulting in the creation of the platform's initial analytics suite and lossless transfer of feedback and product promotion to developer and sales teams respectively.</p>
+
+          <p class="tasks">Stress tested the platform in various scenarios, identified and recorded bugs, provided general usability feedback for front-end features based on manufacturing requirements leading to better usability and uptime.</p>
+          
+          <p class="tasks">Provided data models and strategy for simulating scenarios of traceability and fault tracking resulting in better on-site pitches</p>
+          
+          <p class="tasks">Provided user-focused mock-ups with the UI team resulting in the creation of usable future features (maintenance, launch modules).</p>
+          
+          <p class="tasks">Produced and hosted <a class="pashi" href="https://pashi.com/podcast/">the Means of Production</a> podcast mostly in-house with little to no help to learn industry pain points resulting in a 17 episode season with ~1000 total plays, increased product awareness (broke into Apple's top 100 tech podcasts in 2 countries).</p>
+          
+          <p class="tasks">Authored detailed and realistic use case copy and coded web pages and calculators explaining <a class="pashi" href="https://pashi.com/roi/">Pashi's ROI</a> for customers resulting in better sales pitch material.</p>
+          
+          <p class="tasks">Conducted extensive market research and benchmarking of dozens of competitors resulting in better understanding of product-market fit.</p>
+        <ul>
+          <li class='skills'>BOOTSTRAP</li>
+          <li class='skills'>JAVASCRIPT</li>
+          <li class='skills'>DOCKER</li>
+          <li class='skills'>JEKYLL</li> 
+          <li class='skills'>GIT</li> 
+          <li class='skills'>FIGMA</li>
+          <li class='skills'>POSTGRESQL</li> 
+          <li class='skills'>METABASE</li>  
+        </ul>  
+    </div>  
+   
+  </div>
+
+  <!---FORD 1-->
+
+  <div class="content">
+    <div>
+        <h2 id="btn" onclick="toggleFord1()" class="ford-co">Ford Motor Company</h2>
+        <p class="role">Data Engineer/ PO, IIoT Sources</p>
+        <p class="duration">NOV 2018 - DEC 2020</p>
+    </div>
+    <div class="timeline-content-info build-show" id="ford1-show" style="display: block;">
+          <p class="tasks">Led data replication tasks and events as PO for all IIoT sources with IT partner teams.</p>
+
+          <p class="tasks">Created domain and task specific (manufacturing & assembly) data assets for high volume consumption (180 M records several times a day) for project automating assembly line planning and design (part of $1.3M savings)</p>
+          
+          <p class="tasks">Built hybrid solution data asset code for removal of data lag time so cycle time of product is lower (7 hours to few minutes) using  automated schedules, profiling and access control (Informatica BDM)</p>
+ 
+      <ul>
+        <li class='skills'>INFORMATICA</li>
+        <li class='skills'>HIVE SQL</li>
+        <li class='skills'>HADOOP</li>
+        <li class='skills'>ALTERYX</li>
+        <li class='skills'>QLIKVIEW</li> 
+        <li class='skills'>RALLY</li> 
+        <li class='skills'>AGILE</li>
+        <li class='skills'>SHELL</li> 
+        <li class='skills'>PYTHON</li>  
+      </ul>    
+    </div>
+  </div>
+
+
+  <!--FORD 2-->
+  
+
+  <!--FORD 3-->
+  
+
+  <!--FORD 4-->
+  
+
+  <!--ESTEEM-->
+  
+
+
+<script>
+  function togglePashi() {
+    var b = document.getElementById("pashi-show");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+      b.style.transitionDuration = "1s";
+    } else {
+      b.style.display = 'none';
+      b.style.transitionDuration = "1s";
+    }
+  }
+  function toggleFord1() {
+    var b = document.getElementById("ford1-show");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+      b.style.transitionDuration = "1s";
+    } else {
+      b.style.display = 'none';
+      b.style.transitionDuration = "1s";
+    }
+  }
+
+  function toggleFord2() {
+    var b = document.getElementById("build-show");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+      b.style.transitionDuration = "1s";
+    } else {
+      b.style.display = 'none';
+      b.style.transitionDuration = "1s";
+    }
+  }
+</script>
+
 
 
 </body>

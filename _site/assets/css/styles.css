@@ -136,6 +136,13 @@ h2 {
   color: #393e46;
 }
 
+h3 {
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5em;
+  text-decoration: underline;
+  color: #393e46;
+}
+
 body.dark-theme {
   background-color: #393e46;
 }
@@ -154,6 +161,14 @@ body.dark-theme h2 {
   font-size: 2em;
   text-decoration: underline;
   text-decoration-color: #00adb5;
+}
+
+body.dark-theme h3 {
+  color: #eeeeee;
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5em;
+  text-decoration: underline;
+
 }
 
 
@@ -237,6 +252,24 @@ body.dark-theme a.sd {
   text-decoration-thickness: 0.15em;
 }
 
+body.dark-theme .pashi-co {
+  text-decoration-color: #28a745;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .ford-co {
+  text-decoration-color: #2A6BAC;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .duration {
+  font-size: 0.6em;
+  color: #eeeeee;
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+
+
 a.pashi {
   text-decoration-color: #28a745;
   text-decoration-thickness: 0.15em;
@@ -252,12 +285,40 @@ a.github {
   text-decoration-thickness: 0.15em;
 }
 
-body.dark-theme a.github {
+a.email {
+  text-decoration-color: #333;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme a.github{
   text-decoration-color: #f5f5f5;
   text-decoration-thickness: 0.15em;
 }
 
+body.dark-theme a.email {
+  text-decoration-color: #f5f5f5;
+  text-decoration-thickness: 0.15em;
+}
+
+
 body.dark-theme a.substack {
   text-decoration-color: #99eebb;
   text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .skills {
+  list-style-type: none;
+  display: inline;
+  margin: 0.1em;
+  background-color: #eeeeee;
+  color: #393e46;
+  border-radius: 0.1em;
+  font-size: 0.6em;
+  font-weight: bold;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  text-align: center;
+  text-indent: none;
 }
