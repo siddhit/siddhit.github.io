@@ -1,6 +1,6 @@
 ---
 layout: other_pages
-title: Siddhit Sanghavi &#8212 Résumé
+title: Résumé
 ---
 
 <style>
@@ -24,6 +24,13 @@ title: Siddhit Sanghavi &#8212 Résumé
   text-decoration: underline #003479;
   text-decoration-thickness: 0.15em;
   cursor: pointer;
+}
+
+.esteem-co {
+  text-decoration: underline #58585A;
+  text-decoration-thickness: 0.15em;
+  cursor: pointer;
+}
 }
 
 
@@ -53,7 +60,7 @@ ul {
 .skills {
   list-style-type: none;
   display: inline;
-  margin: 0.1em;
+  margin-top: 0.25vh;
   background-color: #393e46;
   color: #eeeeee;
   border-radius: 0.1em;
@@ -65,6 +72,9 @@ ul {
   text-align: center;
   text-indent: none;
   font-weight: bold;
+  @media screen and (min-width: 50em) {
+    margin-top: 0.25vh;
+}
 
   }
 
@@ -104,7 +114,7 @@ span.pmp {
      
     <div>
             <h2 id="btn" onclick="togglePashi()" class="pashi-co">Pashi</h2>
-            <p class="role">Operations Lead, US</p>
+            <p class="role">US Operations Lead, Austin, TX/Remote <em style="font-size: smaller; font-weight: lighter;">Seed-stage Y Combinator startup</em></p>
             <p class="duration">JAN 2021 - PRESENT</p>
     </div>
        
@@ -142,10 +152,10 @@ span.pmp {
   <div class="content">
     <div>
         <h2 id="btn" onclick="toggleFord1()" class="ford-co">Ford Motor Company</h2>
-        <p class="role">Data Engineer/ PO, IIoT Sources</p>
+        <p class="role">Data Engineer/ PO, IIoT Sources, Dearborn, MI/ Remote</p>
         <p class="duration">NOV 2018 - DEC 2020</p>
     </div>
-    <div class="timeline-content-info build-show" id="ford1-show" style="display: block;">
+    <div class="timeline-content-info" id="ford1-show" style="display: block;">
           <p class="tasks">Led data replication tasks and events as PO for all IIoT sources with IT partner teams.</p>
 
           <p class="tasks">Created domain and task specific (manufacturing & assembly) data assets for high volume consumption (180 M records several times a day) for project automating assembly line planning and design (part of $1.3M savings)</p>
@@ -162,21 +172,94 @@ span.pmp {
         <li class='skills'>AGILE</li>
         <li class='skills'>SHELL</li> 
         <li class='skills'>PYTHON</li>  
+        <li class='skills'>MACHINE LEARNING</li>
       </ul>    
     </div>
   </div>
 
 
   <!--FORD 2-->
-  
+  <div class="content">
+    <div>
+        <h2 id="btn" onclick="toggleFord2()" class="ford-co">Ford Motor Company</h2>
+        <p class="role">PO, Launch Central (part-time), Dearborn, MI.</p>
+        <p class="duration">NOV 2019 - DEC 2020</p>
+    </div>
+    <div class="timeline-content-info" id="ford2-show" style="display: block;">
+      <p>  Ideated app to address gap in verification of production equipment, and pitched it in company Shark Tank-style Design Thinking workshop (Catalyst) resulting in successfully gaining financial support from two executive stakeholders</p>
+
+      <p>Created exhaustive market research of OTS products, development costs and ROI documents to support funding activities.</p>
+      
+      <p>Led dialogues with key executive groups like Advanced Manufacturing Center, Ford X, Vehicle Ops, Ford Data Analytics, Corporate Safety and others for pilot testing and support</p>
+      
+      <p>Created mockups and documentation for developer teams, storyboarding and milestones for managers resulting in a MVP for testing in Flat Rock assembly plant on-site test with launch engineers</p>
+ 
+      <ul>
+        <li class='skills'>DESIGN THINKING</li>
+        <li class='skills'>STORYBOARDING & EXEC PITCH</li>
+        <li class='skills'>BENCHMARKING</li>
+        <li class='skills'>MVP BUILD & TEST</li>
+        <li class='skills'>UI MOCKUPS</li>  
+        <li class='skills'>PIVOTING</li>
+      </ul>    
+    </div>
+  </div>
 
   <!--FORD 3-->
-  
+  <div class="content">
+    <div>
+        <h2 id="btn" onclick="toggleFord3()" class="ford-co">Ford Motor Company</h2>
+        <p class="role">Senior Assembly Systems Engineer, Livonia, MI</p>
+        <p class="duration">NOV 2014 - NOV 2018</p>
+    </div>
+    <div class="timeline-content-info" id="ford3-show" style="display: block;">
+      <p>Led industrial engineering functions (virtual assembly, ergonomics, material flow, time study) in a successfully launched $600M program with 5 assembly lines, 70 UAW heads and 150 stations for transmissions</p>
 
-  <!--FORD 4-->
+<p>Led design, validation and launch of the trigger wheel component line from simultaneous engineering with Hanwha, run-offs and production readiness at LTP and working with Plant teams to stabilize and ramp up production.</p>
+
+<p>Used kaizen to eliminate 1 head ($100k/shift/yr/phase), a plan replicated 2 more times in the program.</p>
+
+<p>Created Excel VBA solution to reduce Plan for Every Part (PfEP) creation from 3 hours to a few minutes.</p>
+ 
+      <ul>
+        <li class='skills'>LEAN SIX-SIGMA</li>
+        <li class='skills'>MACHINE VALIDATION</li>
+        <li class='skills'>PROJECT MANAGEMENT (PMP)</li>
+        <li class='skills'>FACILITY LAYOUT</li>
+        <li class='skills'>TEAMCENTER</li> 
+        <li class='skills'>EROGNOMICS & SAFETY</li>  
+        <li class='skills'>MATERIAL FLOW</li>
+        <li class='skills'>EXCEL VBA</li>
+      </ul>    
+    </div>
+  </div>
   
 
   <!--ESTEEM-->
+  <div class="content">
+    <div>
+        <h2 id="btn" onclick="toggleEsteem()" class="esteem-co">Esteem Diamonds</h2>
+        <p class="role">Business Planning Manager, Mumbai</p>
+        <p class="duration">NOV 2014 - NOV 2018</p>
+    </div>
+    <div class="timeline-content-info" id="esteem-show" style="display: block;">
+      <p>Led international expansion (China, SE Asia) resulting in a 2-person wholesale office in Hong Kong with > $1 million of inventory.</p>
+
+<p>Implemented pricing mechanisms, market analyses for a wholesale turnover target of $2.5 million for the year 2013-14 including factor based system of > 20 different grading parameters</p>
+
+<p>Designed and implemented SOPs for rough purchase, assortment and manufacturing processes resulting in successful bidding and average raw material yields of above 40% (45% being excellent).</p>
+
+<p>Initiated and implemented certification to Responsible Jewelry Council, London norms to benchmark ethical sourcing, labor welfare, workplace safety and financial transparency resulting in 3-4 new top-tier supplier registrations.</p>
+ 
+      <ul>
+        <li class='skills'>PRICING</li>
+        <li class='skills'>INVENTORY MANAGEMENT</li>
+        <li class='skills'>BIDDING & AUCTIONS</li>
+        <li class='skills'>BUSINESS DEVELOPMENT & B2B WHOLESALE</li>
+        <li class='skills'>BRAND MANAGEMENT</li> 
+      </ul>    
+    </div>
+  </div>
   
 
 
@@ -203,7 +286,29 @@ span.pmp {
   }
 
   function toggleFord2() {
-    var b = document.getElementById("build-show");
+    var b = document.getElementById("ford2-show");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+      b.style.transitionDuration = "1s";
+    } else {
+      b.style.display = 'none';
+      b.style.transitionDuration = "1s";
+    }
+  }
+
+  function toggleFord3() {
+    var b = document.getElementById("ford3-show");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+      b.style.transitionDuration = "1s";
+    } else {
+      b.style.display = 'none';
+      b.style.transitionDuration = "1s";
+    }
+  }
+
+  function toggleEsteem() {
+    var b = document.getElementById("esteem-show");
     if (b.style.display === 'none') {
       b.style.display = 'block';
       b.style.transitionDuration = "1s";
