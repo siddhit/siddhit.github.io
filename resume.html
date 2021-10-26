@@ -123,7 +123,7 @@ span.pmp {
 <!--PERSONAL INFO-->
 <div class="personal_info">
   <div >
-    <p>This is my resume as of 10/23/2021. Get in touch to discuss opportunities! (Click on the underlined company/institution to collapse/expand).</p>
+    <p>This is my resume as of 10/23/2021. Get in touch to discuss opportunities! (Company name has link to its website where available and role link expands its description).</p>
     <a class='linkedin'target="_blank" href="https://linkedin.com/in/siddhitsanghavi" style="margin-right: 0.2em;">LinkedIn</a>
     <a class='email' href="mailto:siddhits@gmail.com" target="none" style="margin-right: 0.2em;">Email</a>
   </div>
@@ -334,6 +334,29 @@ span.pmp {
   </div>
 </div>
 
+<!-- Certifications -->
+<p class="sections">OTHER CREDENTIALS</p>
+
+<div class="content">
+  <div class="role-block">
+     
+        <h2 id='btn' onclick="toggleCourses()" class="esteem-co">Certifications, Courses and Licenses</h2>
+
+  </div>
+  <div id="courses" style="display: none;">
+    <p>Project Managment Professional, PMI #3192210, 2014</p>
+    <p>Intro to Programming (with Data Analysis in Python) at <a href="https://confirm.udacity.com/CXSKD5KM" target= "none">Udacity</a>, Oct 2016</p>
+    <p>Machine Learning (Stanford), <a target="none" href="https://www.coursera.org/account/accomplishments/certificate/2ZVLP84749AY">Coursera</a>, Feb 2019</p>
+    <p>Databases & SQL for Data Science in Python, <a target="none" href="https://www.coursera.org/account/accomplishments/certificate/MTGUKEYX3VSW">Coursera</a>, Feb 2019</p>
+    <p>Neural Networks & Deep Learning, <a target="none" href="https://www.coursera.org/account/accomplishments/certificate/8S3KSUMS22KG">Coursera</a>, Apr 2019 </p>
+    <p>Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, <a target="none" href="https://www.coursera.org/account/accomplishments/certificate/NABVRTRC9JL4">Coursera</a>, May 2019</p>
+    <p>MODAPTS (MODular Arrangement of Predetermined Time Standards) Licensed Practioner, via Ford, 2015</p>
+  </div>
+</div>
+
+
+
+
 
 <script>
 
@@ -410,6 +433,17 @@ span.pmp {
 
   function toggleMU() {
     var b = document.getElementById("mu");
+    if (b.style.display === 'none') {
+      b.style.display = 'block';
+      b.style.transitionDuration = "1s";
+    } else {
+      b.style.display = 'none';
+      b.style.transitionDuration = "1s";
+    }
+  }
+
+  function toggleCourses() {
+    var b = document.getElementById("courses");
     if (b.style.display === 'none') {
       b.style.display = 'block';
       b.style.transitionDuration = "1s";
