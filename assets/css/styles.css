@@ -276,6 +276,11 @@ body.dark-theme .esteem-co {
   text-decoration-thickness: 0.15em;
 }
 
+body.dark-theme .vt {
+  text-decoration-color: #E87722;
+  text-decoration-thickness: 0.15em;
+}
+
 body.dark-theme .duration {
   font-size: 0.6em;
   color: #eeeeee;
