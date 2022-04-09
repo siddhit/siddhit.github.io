@@ -256,37 +256,6 @@ a.sd {
   text-decoration-thickness: 0.15em;
 }
 
-body.dark-theme a.sd {
-  text-decoration-color: #feed01;
-  text-decoration-thickness: 0.15em;
-}
-
-body.dark-theme .pashi-co {
-  text-decoration-color: #28a745;
-  text-decoration-thickness: 0.15em;
-}
-
-body.dark-theme .ford-co {
-  text-decoration-color: #2A6BAC;
-  text-decoration-thickness: 0.15em;
-}
-
-body.dark-theme .esteem-co {
-  text-decoration-color: grey;
-  text-decoration-thickness: 0.15em;
-}
-
-body.dark-theme .vt {
-  text-decoration-color: #E87722;
-  text-decoration-thickness: 0.15em;
-}
-
-body.dark-theme .duration {
-  font-size: 0.6em;
-  color: #eeeeee;
-  font-weight: bold;
-  margin-top: -0.5em;
-}
 
 a.vt {
   text-decoration: underline #861F41;
@@ -322,6 +291,39 @@ a.email {
   text-decoration-color: #333;
   text-decoration-thickness: 0.15em;
 }
+
+body.dark-theme a.sd {
+  text-decoration-color: #feed01;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .pashi-co {
+  text-decoration-color: #28a745;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .ford-co {
+  text-decoration-color: #2A6BAC;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .esteem-co {
+  text-decoration-color: grey;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .vt {
+  text-decoration-color: #E87722;
+  text-decoration-thickness: 0.15em;
+}
+
+body.dark-theme .duration {
+  font-size: 0.6em;
+  color: #eeeeee;
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+
 
 body.dark-theme a.github{
   text-decoration-color: #f5f5f5;

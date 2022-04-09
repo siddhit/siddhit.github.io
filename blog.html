@@ -35,13 +35,16 @@
   I'm new to essays and and haven't set up a blog type structure where you can comment, so I apologize. If you have feedback, feel free to reach out on <a class= 'twitter' target = "_blank" href="https://twitter.com/siddhitsanghavi">Twitter</a>.
 </p>
 
+
 <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
 
   </body>
   </html>
