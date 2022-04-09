@@ -1,6 +1,6 @@
 @media screen and (min-width: 50em) {
   html {
-    font-size: calc(18px + (20 - 18)*(100vw - 400px)/400);
+    font-size: calc(16px + (20 - 16)*(100vw - 400px)/400);
   }
 }
 
@@ -288,6 +288,10 @@ body.dark-theme .duration {
   margin-top: -0.5em;
 }
 
+a.vt {
+  text-decoration: underline #861F41;
+  text-decoration-thickness: 0.15em;
+}
 
 a.pashi {
   text-decoration-color: #28a745;

@@ -3,7 +3,8 @@ layout: default
 title: "The Divisiveness of Food"
 ---
  
-#The Divisiveness of Food
+# The Divisiveness of Food
+
 
 While working to set up [Confluence](https://www.atlassian.com/software/confluence) at my job, I had to create 'spaces'-- documents with content about our team, projects and so on. At around the same time, I sent out a box of donuts to my new office colleagues when I started this role and I found that a shop local to them ([Dynamo Donuts](https://dynamodonut.com/), in San Francisco, CA, USA) I selected had 'divisive' flavors. They were quite unique but I could see how they would have extreme reactions. So, rather than make a test page with just ‘alskdjfa;ds’ or ‘loren ipsum’, I thought, why not expand on an interesting topic of how even a donut shop recommendation could be divisive? By the end, I'd have a test page using Confluence features and I’ll be 0.0001% better at understanding and writing. Maybe.
 
