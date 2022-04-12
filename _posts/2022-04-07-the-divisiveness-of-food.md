@@ -1,10 +1,12 @@
 ---
-layout: default
-title: "The Divisiveness of Food"
+layout: post
+title: "The Divisiveness of Donuts"
+author: "Siddhit Sanghavi"
 ---
 
+### And weird ingredient combinations in desserts.
 
-While working to set up [Confluence](https://www.atlassian.com/software/confluence) at my job, I had to create 'spaces'-- documents with content about our team, projects and so on. At around the same time, I sent out a box of donuts to my new office colleagues when I started this role and I found that a shop local to them ([Dynamo Donuts](https://dynamodonut.com/), in San Francisco, CA, USA) I selected had 'divisive' flavors. They were quite unique but I could see how they would have extreme reactions. So, rather than make a test page with just ‘alskdjfa;ds’ or ‘loren ipsum’, I thought, why not expand on an interesting topic of how even a donut shop recommendation could be divisive? By the end, I'd have a test page using Confluence features and I’ll be 0.0001% better at understanding and writing. Maybe.
+While working to set up [Confluence](https://www.atlassian.com/software/confluence) at my new job, I had to create 'spaces'-- documents with content about our team, projects and so on. Around the same time, as a new PM and in true [Ken Norton style](https://www.bringthedonuts.com/donuts/), I sent out a box of donuts to my new office colleagues when I started this role and I found that a shop local to them ([Dynamo Donuts](https://dynamodonut.com/), in San Francisco, CA, USA) I selected had 'divisive' flavors. They were quite unique but I could see how they would have extreme reactions. So, rather than make a test page with just ‘alskdjfa;ds’ or ‘loren ipsum’, I thought, why not expand on an interesting topic of how even a donut shop recommendation could be divisive? By the end, I'd have a test page using Confluence features and I’ll be 0.0001% better at understanding and writing. Maybe.
 
 What is it about food, of all things, that would make it so divisive? Divisiveness lends itself to cults, religious sects (not even the original religion). And I would start there because it tends to affect the entirety of someone's life choices. But now, we're divisive over completely frivolous things, like sodas, cars and mobile phones. What is strange about their longevity is basically that they’re about the means versus the end. How you reach God, which OS you use, and who will lead you somewhere. Journey vs. destination. After a point, you grow up and think, all I need is a phone that gets things done.
 

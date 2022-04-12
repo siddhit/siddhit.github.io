@@ -1,8 +1,25 @@
-@media screen and (min-width: 50em) {
+
   html {
-    font-size: calc(16px + (20 - 16)*(50vw - 400px)/400);
+    @media screen and (max-width: 600px) {
+      padding: 0 30px;
+      margin: 50px 10px;
+    }
+
+  @media screen and (min-width: 50em){ 
+    padding: 0 30px;
+    margin: 50px 10px;
+    }
+    
   }
-}
+
+  .container {
+    margin: 50px 10px;
+    max-width: 670px;
+    
+    @media screen and (min-width: 600px){ 
+      padding: 0 30px;
+    }
+  }
 
 * {
   box-sizing: border-box;
@@ -29,7 +46,9 @@ body.light-theme .back {
 }
 
 body {
-  align-items: center;
+ 
+  margin: auto;
+  /* align-items: center; */
   justify-content: center;
   padding-left: 15vw;
   padding-right: 15vw;
@@ -182,12 +201,20 @@ ul {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1em;
   color: #393e46;
+  padding-left: 0;
+  text-decoration: none;
+
 }
 
 li {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1em;
+  font-size: 0.75em;
   color: #393e46;
+list-style-type: none;
+padding-left: 0;
+text-decoration: none;
+
+
 }
 
 a {

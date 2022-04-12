@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 port: 1985
 markdown: kramdown
+plugins:
+  - jekyll-target-blank

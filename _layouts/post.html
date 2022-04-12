@@ -1,3 +1,5 @@
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,10 +30,37 @@
         </div>
     </div>
 
-<h1>{{ post.title }}</h1>
-<p>{{ post.date | date_to_string }} - {{ post.author }}</p>
 
-{{ content }}
+<section class="container">
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date_to_string }} - {{ page.author }}</em></p>
+    {{ content }}
+
+</section>
 
 </body>
+
+<script>
+    //Light/dark mode toggle
+    // Select the button
+    const checkbox = document.getElementById('checkbox');
+
+    checkbox.addEventListener('change', () => {
+        //change theme of body\
+        document.body.classList.toggle("dark-theme");
+
+
+    });
+
+    function toggleThanks() {
+        var t = document.getElementById("thanks-show");
+        if (t.style.display === 'none') {
+            t.style.display = 'block';
+        } else {
+            t.style.display = 'none';
+        }
+    }
+</script>
+
+</html>
 </html>

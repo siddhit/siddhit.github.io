@@ -15,23 +15,27 @@
 </head>
 
 <body class="light-theme">
-    <div class="header">
-        <div class="back">
-            <a href="/index.html"><i class="fas fa-arrow-left"></i></a>
-
+    
+    
+    <section class="container">
+        <div class="header">
+            <div class="back">
+                <a href="/index.html"><i class="fas fa-arrow-left"></i></a>
+    
+            </div>
+            <div class="theme_selector">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
         </div>
-        <div class="theme_selector">
-            <input type="checkbox" class="checkbox" id="checkbox">
-            <label for="checkbox" class="label">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-            </label>
-        </div>
-    </div>
-    <h1>{{page.title}}</h1>
+        <h1>{{page.title}}</h1>
+        {{ content }}
 
-    {{ content }}
+    </section>
 
 </body>
 

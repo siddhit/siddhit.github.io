@@ -11,3 +11,4 @@ gem "jekyll-theme-slate"
 gem "kramdown-parser-gfm"
 gem 'font-awesome-less'
 gem "webrick"
+gem 'jekyll-target-blank'

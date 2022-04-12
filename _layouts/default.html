@@ -18,22 +18,26 @@
 
 
 <body class="light-theme">
-    <div class="header">
+    
+    <section class="container">
+        <div class="header">
 
 
-        <div class="theme_selector">
-            <input type="checkbox" class="checkbox" id="checkbox">
-            <label for="checkbox" class="label">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-            </label>
+            <div class="theme_selector">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+    
+    
+    
         </div>
+        {{ content }}
 
-
-
-    </div>
-    {{ content }}
+    </section>
 </body>
 <footer>
     <div class='footer'>
