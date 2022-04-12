@@ -1,6 +1,6 @@
 @media screen and (min-width: 50em) {
   html {
-    font-size: calc(16px + (20 - 16)*(100vw - 400px)/400);
+    font-size: calc(16px + (20 - 16)*(50vw - 400px)/400);
   }
 }
 

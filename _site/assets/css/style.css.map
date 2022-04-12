@@ -3,8 +3,8 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../var/lib/gems/2.7.0/gems/jekyll-theme-slate-0.2.0/_sass/jekyll-theme-slate.scss",
-		"../../../../var/lib/gems/2.7.0/gems/jekyll-theme-slate-0.2.0/_sass/rouge-github.scss"
+		"../../.gem/ruby/3.1.1/gems/jekyll-theme-slate-0.2.0/_sass/jekyll-theme-slate.scss",
+		"../../.gem/ruby/3.1.1/gems/jekyll-theme-slate-0.2.0/_sass/rouge-github.scss"
 	],
 	"sourcesContent": [
 		"@import \"jekyll-theme-slate\";\n",
