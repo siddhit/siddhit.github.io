@@ -1,23 +1,23 @@
 
-  html {
+  /* html {
     @media screen and (max-width: 600px) {
       padding: 0 30px;
       margin: 50px 10px;
-    }
+    } 
 
   @media screen and (min-width: 50em){ 
-    padding: 0 30px;
-    margin: 50px 10px;
+      padding: 0 30px;
+      margin: 50px 10px;
     }
     
-  }
+  } */
 
   .container {
-    margin: 50px 10px;
+    margin: 35px 5px;
     max-width: 670px;
     
     @media screen and (min-width: 600px){ 
-      padding: 0 30px;
+      padding: 0 20px;
     }
   }
 
@@ -190,12 +190,25 @@ body.dark-theme h3 {
 
 }
 
-
 p {
+  font-size: 16px;
+  line-height: 26px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  color: #393e46;
+  font-family: "Noto Sans JP", sans-serif;
+  
+  @media screen and (min-width: 600px){ 
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+/* p {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1em;
   color: #393e46;
-}
+} */
 
 ul {
   font-family: "Noto Sans JP", sans-serif;

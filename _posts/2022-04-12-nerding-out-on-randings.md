@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Nerding Out On Rankings"
+author: "Siddhit Sanghavi"
+published: true
+---
+How would you rank your favorite fruit?
+
+Just by taste, you'd think, and you'd be right. But because I had an evening free and this conversation came up with a friend, I wanted to take a crack at how people actually rate something as ubiquitous as fruits in their head.
+
+If you're still not convinced, let's take my example. My favorite fruit is the watermelon. I gobble every slice of it when we buy one and even a slightly bland one satisfies me because it's more than the taste. It's the lightness (since their pulp is mostly water), the texture and the messy, slurpy bites I take to get every bit of that crimson flesh.
+
+So there it is. But as you can see, I mentioned many things &#8211; taste, texture, lightness (?), messiness (?) and maybe other unconcious factors. But frankly, I hardly get watermelons at home; a majority of my watermelon eating happens in buffets or some catered events where they're part of the appetizer. And that introduces to me a few more factors: convenience and cost. For example, it's very inconvenient to cut them or even carry them. Pineapples are lighter but worse when it comes to chopping up that deliciously tart yellow pulp. I love starfruits but being imported (from India?) they're super expensive &#8211; just one small, mostly overripe fruit is a few dollars. There are other factors like packaging &#8211; coconuts have excellent packaging &#8211; just pick them off and inside a durable, airtight container you can find its lovely pulp as well as refreshing water. Isn't that just brilliant? Or mandarins (small oranges) which have been GMO'd to have very loose outer skins for which you don't need your knife and then they're in bite-sized portions so you could just put them back in the fridge if you can't eat the whole thing without them getting oxidised or spilling over.
+
+And when I put all these things together, I find to my horror that the fruit that should actually be my favorite based on many of these factors is &#8211; the banana! Yes. Bananas. It's no surprise the banana is the [most popular fruit in the world](https://www.worldatlas.com/articles/the-most-popular-fruit-in-the-world.html) (if you don't [consider a tomato a fruit](https://www.nationalgeographic.com/culture/article/fruit-or-vegetable)) given they're all literally the same organism. No, not the same species. [They're the same plant, clones of each other](https://groundedgrub.com/articles/bananas) A real, wild banana is not really edible. We'll get into GMO-related topics some other time but for now, I have to go through why I've reluctantly my #1.
+
+First, their super consistent taste. I've hardly seen bananas that have variation in pulp consistency like mangoes (still the King in my Indian mind) or tartness, like oranges and pineapples. They appear in neat bunches that don't force you to pick a fruit six or seven times &#8211; pick one and done. Then, you have their highly versatile use. Raw? Make plantain dishes. Overripe? Put it in a smoothie. Think it's too boring? Put it in a sundae dessert spread and it's ice-cream's best friend. But the point that pushed the needle over the finish line is their incredible packaging. No other fruit comes close! A built-in easy peel packaging that you can neatly close back or throw away? How cool is that? Yes, I'm nerding out but think about it: even if this was genetically modified, you still can't argue at how we (and by 'we', I mean smart geneticists) were able to tweak the already present residual characteristics to just that perfect level so as to create a masterpiece! This doesn't seem pathbreaking until you realize that the original [banana isn't even edible](https://en.wikipedia.org/wiki/Musa_balbisiana). It's not like it was better and we just made it worse to commercialize it ([like iconic books into Apple TV+ series](https://en.wikipedia.org/wiki/Foundation_(TV_series))). It's a fruit that's enjoyable, affordable and at least one person is both happy and surprised it's on top of his nerdy fruit ranking list.
+
+I'll stop for now but I'll be sure to update this with a top ten list, complete with an equally nerdy ranking system. Till then, make your own weird list!
+
+
+~ Sid
