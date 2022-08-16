@@ -191,7 +191,7 @@ body.dark-theme h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -200,7 +200,7 @@ p {
   font-family: "Alegreya", serif;
   
   @media screen and (min-width: 600px){ 
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
   }
 }
