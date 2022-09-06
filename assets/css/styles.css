@@ -281,7 +281,7 @@ span.thanks-show {
 
 body.dark-theme p {
   color: #eeeeee;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 body.dark-theme a {
