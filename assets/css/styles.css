@@ -369,6 +369,11 @@ body.dark-theme .vt {
   text-decoration-thickness: 0.15em;
 }
 
+body.dark-theme .vt {
+  text-decoration-color: #cccccc;
+  text-decoration-thickness: 0.15em;
+}
+
 body.dark-theme .duration {
   font-size: 0.6em;
   color: #eeeeee;
