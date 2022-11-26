@@ -364,12 +364,12 @@ body.dark-theme .esteem-co {
   text-decoration-thickness: 0.15em;
 }
 
-body.dark-theme .vt {
+body.dark-theme a.vt {
   text-decoration-color: #E87722;
   text-decoration-thickness: 0.15em;
 }
 
-body.dark-theme .fyusion {
+body.dark-theme a.fyusion {
   text-decoration-color: #cccccc;
   text-decoration-thickness: 0.15em;
 }
