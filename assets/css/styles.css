@@ -212,7 +212,8 @@ p {
 
 ul {
   font-family: "Alegreya", serif;
-  font-size: 1em;
+  font-size: 18px;
+  line-height: 26px;
   color: #393e46;
   padding-left: 0;
   text-decoration: none;
@@ -221,11 +222,12 @@ ul {
 
 li {
   font-family: "Alegreya", serif;
-  font-size: 1em;
+  font-size: 18px;
+  line-height: 26px;
   color: #393e46;
-list-style-type: none;
-padding-left: 0;
-text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
 
 
 }
