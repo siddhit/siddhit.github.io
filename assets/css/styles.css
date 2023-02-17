@@ -118,6 +118,7 @@ body.light-theme .ball {
   background-color: #eeeeee;
   top: 0.20em;
   left: 0.20em;
+  bottom: 0.20em;
   border-radius: 50%;
   transition: transform 0.3s linear;
 }
@@ -128,6 +129,7 @@ body.dark-theme .ball {
   position: absolute;
   background-color: #393e46;
   top: 0.20em;
+  bottom: 0.20em;
   left: 0.20em;
   border-radius: 50%;
   transition: transform 0.3s linear;
