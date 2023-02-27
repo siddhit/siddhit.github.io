@@ -7,7 +7,8 @@
     <title>{{ page.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="/assets/css/all.css" rel="stylesheet">
@@ -16,6 +17,7 @@
 </head>
 
 <body class="light-theme">
+    <section class="container">
     <div class="header">
         <div class="back">
             <a href="/index.html"><i class="fas fa-home fa-lg"></i></a>
@@ -32,10 +34,10 @@
     </div>
 
 
-<section class="container">
+
     <p>To go back to the list of posts, click <a href="/blog.html">here</a>.</p>
     <h1>{{ page.title }}</h1>
-    <p><em>{{ page.date | date_to_string }} - {{ page.author }}</em></p>
+    <p><em>{{ page.date | date_to_string }}</em></p>
     {{ content }}
 
 </section>

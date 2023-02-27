@@ -118,6 +118,7 @@ body.light-theme .ball {
   background-color: #eeeeee;
   top: 0.20em;
   left: 0.20em;
+  bottom: 0.20em;
   border-radius: 50%;
   transition: transform 0.3s linear;
 }
@@ -128,6 +129,7 @@ body.dark-theme .ball {
   position: absolute;
   background-color: #393e46;
   top: 0.20em;
+  bottom: 0.20em;
   left: 0.20em;
   border-radius: 50%;
   transition: transform 0.3s linear;
@@ -212,7 +214,8 @@ p {
 
 ul {
   font-family: "Alegreya", serif;
-  font-size: 1em;
+  font-size: 18px;
+  line-height: 26px;
   color: #393e46;
   padding-left: 0;
   text-decoration: none;
@@ -221,11 +224,12 @@ ul {
 
 li {
   font-family: "Alegreya", serif;
-  font-size: 1em;
+  font-size: 18px;
+  line-height: 26px;
   color: #393e46;
-list-style-type: none;
-padding-left: 0;
-text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
 
 
 }
@@ -310,7 +314,7 @@ a.sd {
 
 
 a.vt {
-  text-decoration: underline #861F41;
+  text-decoration-color: #861F41;
   text-decoration-thickness: 0.15em;
 }
 
@@ -364,12 +368,12 @@ body.dark-theme .esteem-co {
   text-decoration-thickness: 0.15em;
 }
 
-body.dark-theme .vt {
+body.dark-theme a.vt {
   text-decoration-color: #E87722;
   text-decoration-thickness: 0.15em;
 }
 
-body.dark-theme .fyusion {
+body.dark-theme .vt {
   text-decoration-color: #cccccc;
   text-decoration-thickness: 0.15em;
 }
@@ -418,4 +422,18 @@ body.dark-theme .skills {
 .footer {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+/* 404 page */
+.imgbox {
+  position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+.center-fit {
+  max-width: 99%;
+    max-height: 99%;
 }
