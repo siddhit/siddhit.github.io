@@ -1,82 +1,28 @@
----
-layout: default
-title: Siddhit Sanghavi
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sid Sanghavi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="theme-toggle">🌙 Dark Mode</button>
 
-<h1>siddh.it</h1>
-<p>Hey there! Welcome to my personal website.</p>
-<div class="build">
-  <a href="/writing.html"><h2>Writing</h2></a>
-</div>
+  <h1>Sid Sanghavi</h1>
+  <p>Industrial Engineer turned remodeler • Co-owner of Bath Tune-Up & Kitchen Tune-Up Round Rock</p>
 
-<div class="build">
-  <a href="/reading.html"><h2>Reading</h2></a>
+  <div class="links">
+    <a href="https://kitchentuneup.com" target="_blank">Kitchen Tune-Up</a>
+    <a href="https://bathtune-up.com" target="_blank">Bath Tune-Up</a>
+    <a href="https://linkedin.com/in/SiddhitSanghavi" target="_blank">LinkedIn</a>
+    <a href="https://github.com/siddhit" target="_blank">GitHub</a>
+    <a href="assets/Sid.vcf" download>Download Contact Card</a>
+  </div>
 
-</div>
-
-<div class="build">
-  <a href="/about.html"><h2>About</h2></a>
-
-</div>
-
-
-
-
-<script>
-
-
-  //I shouldn't be repeating a function so many times but it doesn't work with common ids and a single function.
-  function toggleBuild() {
-    var b = document.getElementById("build-show");
-    if (b.style.display === 'none') {
-      b.style.display = 'block';
-      b.style.transitionDuration = "1s";
-    } else {
-      b.style.display = 'none';
-      b.style.transitionDuration = "1s";
-    }
-  }
-
-  function toggleCreate() {
-    var c = document.getElementById("create-show");
-    if (c.style.display === 'none') {
-      c.style.display = 'block';
-    } else {
-      c.style.display = 'none';
-    }
-  }
-
-  function toggleRandom() {
-    var r = document.getElementById("random-show");
-    if (r.style.display === 'none') {
-      r.style.display = 'block';
-    } else {
-      r.style.display = 'none';
-    }
-  }
-
-  function toggleContact() {
-    var s = document.getElementById("social-show");
-    if (s.style.display === 'none') {
-      s.style.display = 'block';
-    } else {
-      s.style.display = 'none';
-    }
-  }
-
-
-  function toggleThanks() {
-    var t = document.getElementById("thanks-show");
-    if (t.style.display === 'none') {
-      t.style.display = 'block';
-    } else {
-      t.style.display = 'none';
-    }
-  }
-
-
-
-</script>
+  <script src="script.js"></script>
+</body>
+</html>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6H2BF2592"></script>
 <script>

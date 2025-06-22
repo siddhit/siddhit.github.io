@@ -1,0 +1,75 @@
+:root {
+    --bg-light: #eeeeee;
+    --bg-dark:  #393e46;
+    --text-light: #393e46;
+    --text-dark:  #eeeeee;
+    --accent:    #00adb5;
+  }
+  
+  html.light {
+    background: var(--bg-light);
+    color: var(--text-light);
+  }
+  html.dark {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+  }
+  
+  body {
+    margin: 0;
+    padding: 2rem;
+    font-family: "Alegreya", serif;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 320px;
+    margin: 2rem 0;
+  }
+  
+  .links a {
+    display: block;
+    padding: 0.75rem;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .links a:hover {
+    opacity: 0.9;
+  }
+  
+  #theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+  }
